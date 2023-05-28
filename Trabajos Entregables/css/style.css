@@ -1,0 +1,139 @@
+*{margin: 0;
+padding: 0;
+}
+
+
+body{background-color: rgb(211, 200, 184);
+    font-family: 'Ubuntu', sans-serif;
+}
+/*HEADER*/
+header{
+    background-color: azure;}
+
+header h1 {color:rgb(255, 149, 0);
+    font-size: 60px;
+    text-align: center ;
+    list-style-type: none ;  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.menu{display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 7, 7);
+    font-size: 100% ;
+    list-style-type: none ;
+    font-weight: 1000;
+    font-size: 25px ;
+    
+    }
+
+.menu li{margin: 10px;
+}
+
+.menu_item.activo, .menu_item a:hover{
+    background-color: aliceblue;
+    text-decoration: underline double;
+    }
+
+ul.menu li a{padding: .5rem;
+    border-radius: 50%;
+    background-color: rgb(215, 237, 237);
+    text-decoration: none;
+color: rgb(247, 104, 2);
+}
+
+/*MAIN*/
+.opcion_galeria{display: flex;
+justify-content: center;
+align-items: center;}
+
+.seccion1{text-align: center;
+}
+
+
+.encabezado{ 
+    background-color: antiquewhite;
+    border-radius: 1%;
+    width: 800px;
+}
+
+.foto{ width:100%;
+    border-radius: 1%;
+}
+
+
+.index{display: flex;
+justify-content: center;
+text-align: center;
+
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: none;
+    
+    }
+
+.galeria {margin-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+.sub_galeria{background-color: rgb(135, 109, 75);
+    text-align: center;
+}
+
+.sub_galeria img{border-radius: 1%;
+    margin: 10px;
+width: 30%;}
+
+#inn a{text-decoration: none;
+    color: rgb(51, 0, 252);}
+
+/*FOOTER*/
+
+footer{display: flex;
+background-color: azure;
+text-align: center;
+height:  9vh;
+align-items: flex-end;
+justify-content: center;
+}
+
+/*ADAPTACION A MOBILE*/
+@media screen and (max-width: 480px) {
+    header h1 {color:rgb(255, 149, 0);
+        font-size: 40px;
+        text-align: center ;
+        list-style-type: none ;  
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    
+    .menu{display: flex;
+        flex-direction: column;
+        color: rgb(7, 7, 7);
+        font-size: 100% ;
+        list-style-type: none ;
+        font-weight: 800px;
+        font-size: 20px ;
+        
+        }
+    
+    .menu li{margin: 8px;
+    }
+
+    ul.menu li a{padding: .5rem;
+        border-radius: 50%;
+        background-color: rgb(215, 237, 237);
+        text-decoration: none;
+    color: rgb(247, 104, 2);
+    }
+
+    .sub_galeria img{border-radius: 1%;
+        margin: 10px;
+    width: 90%;}
+
+}
