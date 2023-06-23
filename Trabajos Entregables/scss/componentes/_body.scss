@@ -56,7 +56,7 @@ nav ol {
     width: 30%;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(51, 0, 252);
 }
@@ -64,14 +64,28 @@ a{
 
 
 .grid-container {
-    display: grid;  
-    grid-template-columns: 1fr 1fr; /* 2 columnas */
-    grid-template-rows: 1fr 1fr; /* 2 filas */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 2 columnas */
+    grid-template-rows: 1fr 1fr;
+    /* 2 filas */
     justify-items: start;
     align-items: center;
     grid-row-gap: 10px;
     width: 100%;
 }
+
+.animacard {
+    
+    height: 25rem;
+    transition: height 2s, width 1s;
+}
+
+.animacard:hover {
+    height: 30rem;
+}
+
+
 
 
 /*ADAPTACION A MOBILE*/
@@ -114,4 +128,3 @@ a{
     }
 
 }
-
