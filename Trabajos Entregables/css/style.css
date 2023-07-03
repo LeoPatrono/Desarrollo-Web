@@ -60,7 +60,7 @@ ul.menu li a {
 .encabezado {
   background-color: antiquewhite;
   border-radius: 1%;
-  width: 800px;
+  width: 100%;
 }
 
 .foto {
@@ -122,6 +122,10 @@ a {
 
 .animacard:hover {
   height: 30rem;
+}
+
+.carousel slide {
+  width: 50%;
 }
 
 /*ADAPTACION A MOBILE*/
